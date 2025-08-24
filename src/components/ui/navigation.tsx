@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './button';
 import { Menu, X } from 'lucide-react';
 const exskonLogo = '/lovable-uploads/9ac22515-acd2-4990-b163-72f67ccad3aa.png';
@@ -44,9 +45,11 @@ export const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button variant="default" size="sm">
-              Get Quote
-            </Button>
+            <Link to="/get-quote">
+              <Button variant="default" size="sm">
+                Get Quote
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -76,9 +79,11 @@ export const Navigation = () => {
                 </a>
               ))}
               <div className="pt-4">
-                <Button variant="default" size="sm" className="w-full">
-                  Get Quote
-                </Button>
+                <Link to="/get-quote" className="w-full">
+                  <Button variant="default" size="sm" className="w-full">
+                    Get Quote
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

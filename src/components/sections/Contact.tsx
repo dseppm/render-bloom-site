@@ -10,19 +10,19 @@ export const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 96866 21534', '+91 96866 21534'],
+      details: ['+91 86886 62615', '+91 93477 41152'],
       note: '24/7 Emergency Line'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['ExskonElevator@gmail.com'],
+      details: ['exskonelevator@gmail.com'],
       note: 'Quick Response Guaranteed'
     },
     {
       icon: MapPin,
       title: 'Office',
-      details: ['Dino - 11 Sovndra Theatre Road', 'Parvathipuram Manyam District - 535501 (AP)'],
+      details: ['D.No.1-1, Sowndarya Theatre Road', 'Parvathipuram Manyam District - 535501 (AP)'],
       note: 'Visit Our Showroom'
     },
     {

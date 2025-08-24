@@ -52,6 +52,9 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'surface-elevated': 'hsl(var(--surface-elevated))',
+				'text-industrial': 'hsl(var(--text-industrial))',
+				'border-subtle': 'hsl(var(--border-subtle))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +70,17 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'hero-gradient': 'var(--hero-gradient)',
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'card': 'var(--shadow-card)',
+			},
+			fontFamily: {
+				'heading': ['Inter', 'system-ui', 'sans-serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif'],
 			},
 			keyframes: {
 				'accordion-down': {

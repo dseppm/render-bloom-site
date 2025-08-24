@@ -8,7 +8,7 @@ export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: 'Home', href: '#home' },
+    { label: 'Home', href: '/' },
     { label: 'Services', href: '#services' },
     { label: 'Safety', href: '#safety' },
     { label: 'About', href: '#about' },
@@ -20,6 +20,7 @@ export const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
+          <Link to="/">
           <div className="flex-shrink-0">
             <img
               src={exskonLogo}
@@ -27,6 +28,7 @@ export const Navigation = () => {
               className="h-12 w-auto"
             />
           </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">

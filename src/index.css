@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
 */
+
+
 
 @layer base {
   :root {
@@ -20,7 +22,7 @@ All colors MUST be HSL.
     /* Exskon Brand Colors */
     --primary: 217 91% 35%; /* Deep Blue from logo */
     --primary-foreground: 0 0% 98%;
-    
+
     --secondary: 31 94% 43%; /* Orange from logo */
     --secondary-foreground: 0 0% 98%;
 
@@ -42,7 +44,7 @@ All colors MUST be HSL.
     --surface-elevated: 0 0% 100%;
     --text-industrial: 220 15% 25%;
     --border-subtle: 210 20% 88%;
-    
+
     /* Shadows */
     --shadow-elegant: 0 10px 40px -10px hsl(217 91% 35% / 0.15);
     --shadow-card: 0 4px 20px -2px hsl(0 0% 0% / 0.08);
@@ -99,7 +101,7 @@ All colors MUST be HSL.
     --surface-elevated: 220 15% 12%;
     --text-industrial: 210 20% 85%;
     --border-subtle: 220 15% 25%;
-    
+
     --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.3);
     --shadow-card: 0 4px 20px -2px hsl(0 0% 0% / 0.2);
     --sidebar-background: 240 5.9% 10%;

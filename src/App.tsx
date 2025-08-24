@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import GetQuote from "./pages/GetQuote";
 import NotFound from "./pages/NotFound";
+import Logo from "./pages/Logo";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/get-quote" element={<GetQuote />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
+          <Route path="/logo" element={<Logo />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

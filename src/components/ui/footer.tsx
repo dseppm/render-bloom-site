@@ -83,9 +83,9 @@ export const Footer = () => {
             © 2024 Exskon Elevator. All rights reserved.
           </div>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
-            <span>Emergency: +1 (555) 123-4567</span>
+            <span>Emergency: +91 96866 21534</span>
             <span>•</span>
-            <span>info@exskonelevator.com</span>
+            <span>ExskonElevator@gmail.com</span>
           </div>
         </div>
       </div>

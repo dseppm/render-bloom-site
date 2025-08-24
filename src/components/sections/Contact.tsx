@@ -10,19 +10,19 @@ export const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+1 (555) 123-4567', '+1 (555) 987-6543'],
+      details: ['+91 96866 21534', '+91 96866 21534'],
       note: '24/7 Emergency Line'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@exskonelevator.com', 'emergency@exskonelevator.com'],
+      details: ['ExskonElevator@gmail.com'],
       note: 'Quick Response Guaranteed'
     },
     {
       icon: MapPin,
       title: 'Office',
-      details: ['123 Industrial Drive', 'Metro City, ST 12345'],
+      details: ['Dino - 11 Sovndra Theatre Road', 'Parvathipuram Manyam District - 535501 (AP)'],
       note: 'Visit Our Showroom'
     },
     {
